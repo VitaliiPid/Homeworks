@@ -11,7 +11,6 @@ public class Truck {
     private double currentWeight;
     private double currentFuel;
 
-    // Конструктор класса
     public Truck(String model, String manufacturer, int year, String colour, double maxWeight, double maxFuel, String owner) {
         this.model = model;
         this.manufacturer = manufacturer;
