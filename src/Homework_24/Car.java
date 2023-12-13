@@ -7,4 +7,15 @@ public class Car extends Transport{
         super(brand, model);
         this.numberOfDoors = numberOfDoors;
     }
+
+    public void start() {
+        super.start();
+        System.out.println("Number of doors: " + numberOfDoors);
+    }
+
+    public void stop() {
+        super.stop();
+        System.out.println("Number of doors: " + numberOfDoors);
+
+    }
 }
