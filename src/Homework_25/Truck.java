@@ -61,7 +61,6 @@ public class Truck extends Transport{
         return maxWeight - currentWeight;
     }
 
-    @Override
     public void move() {
         if (currentFuel == 0) {
             System.out.println("Недостаточно топлива, невозможно двигаться");
@@ -77,7 +76,6 @@ public class Truck extends Transport{
         System.out.println("Грузовик двигается!");
     }
 
-    @Override
     public void stop() {
         super.stop();
         System.out.println("Грузовик остановлен.");
